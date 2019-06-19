@@ -161,6 +161,9 @@
         },
         {
           "path": "json/fn_arrows.json"
+        },
+        {
+          "path": "json/rightshift_plus_openbracketsemicolonquoteslash_to_arrow_keys.json"
         }
       ]
     },
