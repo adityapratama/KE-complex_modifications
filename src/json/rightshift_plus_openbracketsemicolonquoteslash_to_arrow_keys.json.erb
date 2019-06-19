@@ -1,0 +1,30 @@
+{
+  "title": "Change right_shift + {/;/'// to arrow keys in Macbook Pro" ,
+    "rules": [
+        {
+          "description": "Change right_shift + {/;/'// to arrow keys in Macbook Pro",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("open_bracket", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["up_arrow"]]) %>
+                },
+                {
+                    "type": "basic",
+                    "from": <%= from("semicolon", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["left_arrow"]]) %>
+                },
+                {
+                    "type": "basic",
+                    "from": <%= from("slash", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["down_arrow"]]) %>
+                },
+                {
+                    "type": "basic",
+                    "from": <%= from("quote", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["right_arrow"]]) %>
+                }
+            ]
+        }
+    ]
+}
