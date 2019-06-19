@@ -66,6 +66,10 @@ The `dist.json` is ignored by .gitignore in order to avoid file conflicting beca
 2.  Make a link `karabiner://karabiner/assets/complex_modifications/import?url=<JSON_URL>`.
 3.  Open the link from web browser.
 
+## Install from localehost
+1. run `make server`
+2. Use secure localhost tunnel like `ngrok` to use https
+3. Open the link from `ngrok`  console from web browser
 ---
 
 # Updating the web application
